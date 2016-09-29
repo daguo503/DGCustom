@@ -44,13 +44,10 @@
 }
 
 
-
 -(instancetype)init
 {
     self = [super initWithFrame:CGRectMake(0, 0, 160, 160)];
     if (self) {
-        
-        
         
         CGPoint centerPoint = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
         self.layer.cornerRadius = viewCornerRadius;
